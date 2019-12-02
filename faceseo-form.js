@@ -111,12 +111,13 @@ jQuery(divpopup).attr('id', 'myModalthanh');
 jQuery(divpopup).attr('class', 'thanhfaceseo-modal');
 jQuery( "body" ).append(divpopup);
 var titleform='Đăng ký Form';
-var urlform="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfH2IdIbSUYohZHWcgcSfnzpg5jZa4Gob7SaOpMpEzjsEcHjQ/formResponse";
+var urlform="https://docs.google.com/forms/u/0/d/e/1FAIpQLScB_ykAtyc41bVqP9G8W3lNXx8ERQXQHvaPiFQWYlH-mohTOQ/formResponse
+";
 var urlchuyen=window.location.href;
-var hovaten="630098314";
-var dienthoai="1192376623";
-var email="1768283042";
-var duan="1244233666";
+var hovaten="442551332";
+var dienthoai="530920390";
+var email="554469990";
+var duan="1632194780";
 var submittitle='Đăng ký tư vấn';
 var submittedform=false;
 var titleheader="ĐĂNG KÝ TƯ VẤN NHẬN ƯU ĐÃI";
@@ -139,7 +140,7 @@ jQuery("#myModalthanh").html(formdiv);
 function thanhxet(){
 
 if(submittedform) {
-	window.location="https://lenamssre.blogspot.com/";
+	window.location="https://qiislandthuanan.blogspot.com/";
 var linkhientai=window.location;
 if(getCookie(linkhientai)){
                 	
@@ -186,4 +187,3 @@ function showform(){
 }
 
 var myVar=setInterval(function () {showform()}, 1000);
-
